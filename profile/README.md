@@ -3,7 +3,7 @@
 **Your calendar. Your device. Your rules.**
 
 [![Build](https://github.com/KashCal/KashCal/actions/workflows/build.yml/badge.svg)](https://github.com/KashCal/KashCal/actions/workflows/build.yml)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/KashCal/KashCal/blob/main/LICENSE)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-green.svg)](https://developer.android.com/about/versions/oreo)
 
 A privacy-first calendar that works offline and looks beautiful. Connect to iCloud — or don't. Your schedule, your choice.
@@ -12,15 +12,15 @@ A privacy-first calendar that works offline and looks beautiful. Connect to iClo
 
 <table align="center">
   <tr>
-    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/HomePage-with-AboutMe.png" width="180"><br><sub>Home & Agenda</sub></td>
-    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/NewEvent.png" width="180"><br><sub>Create Event</sub></td>
-    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/NewEvent-Date-Time-Picker.png" width="180"><br><sub>Date & Time Picker</sub></td>
-    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Settings.png" width="180"><br><sub>Settings</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/HomePage-with-AboutMe.png" width="180"><br><sub>Home & Agenda</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/NewEvent.png" width="180"><br><sub>Create Event</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/NewEvent-Date-Time-Picker.png" width="180"><br><sub>Date & Time Picker</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Settings.png" width="180"><br><sub>Settings</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Apple-Calendar-Connect.png" width="180"><br><sub>iCloud Connect</sub></td>
-    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Sync-with-iCloud.png" width="180"><br><sub>iCloud Sync</sub></td>
-    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/ICS-Subscription.png" width="180"><br><sub>ICS Subscriptions</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Apple-Calendar-Connect.png" width="180"><br><sub>iCloud Connect</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Sync-with-iCloud.png" width="180"><br><sub>iCloud Sync</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/ICS-Subscription.png" width="180"><br><sub>ICS Subscriptions</sub></td>
     <td></td>
   </tr>
 </table>
@@ -51,9 +51,9 @@ A privacy-first calendar that works offline and looks beautiful. Connect to iClo
 
 ## How It Works
 
-
-User Action → Local DB (instant) → Background Sync (only if you're using Apple Calendar)
-
+```
+User Action → Local DB (instant) → Background Sync (only if using iCloud)
+```
 
 All operations save locally first. Sync happens in the background — your calendar works even without internet or any external calendar service.
 
@@ -75,32 +75,16 @@ All operations save locally first. Sync happens in the background — your calen
 
 **[GitHub Releases](https://github.com/KashCal/KashCal/releases)** — Download the latest APK
 
+**F-Droid** — Coming soon
 
-## Building from Source
+**IzzyOnDroid** — Coming soon
 
-### Prerequisites
-- Android Studio (latest stable)
-- JDK 17
-- Android SDK 35
+## iCloud Setup
 
-### Debug Build
-```bash
-git clone https://github.com/KashCal/KashCal.git
-cd KashCal
-./gradlew assembleDebug
-```
-
-### Release Build
-```bash
-# Copy local.properties.example to local.properties
-# Add your signing credentials
-./gradlew assembleRelease
-```
-
-### Run Tests
-```bash
-./gradlew test
-```
+1. Go to [appleid.apple.com](https://appleid.apple.com)
+2. Sign in → **Sign-In and Security** → **App-Specific Passwords**
+3. Generate a password named "KashCal"
+4. In KashCal: **Settings** → **iCloud Account** → Enter email and app-specific password
 
 ## Tech Stack
 
@@ -115,10 +99,15 @@ cd KashCal
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+See [CONTRIBUTING.md](https://github.com/KashCal/KashCal/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## License
 
-Apache License 2.0 — see [LICENSE](LICENSE)
+Apache License 2.0 — see [LICENSE](https://github.com/KashCal/KashCal/blob/main/LICENSE)
 
-Third-party licenses — see [NOTICE](NOTICE)
+---
+
+<p align="center">
+  <b>KashCal</b><br>
+  Your calendar. Your privacy. Your control.
+</p>
