@@ -4,48 +4,18 @@
 
 # KashCal
 
-**Your calendar. Your device. Your rules.**
-
----
-
-🔒 **Private** · 📴 **Offline** · 🔄 **Syncs** · 🔓 **Open Source**
-
----
+All your calendars in one Android app.
 
 </div>
 
-## Welcome
+KashCal brings your calendars together: iCloud, Nextcloud, Fastmail and other CalDAV servers, plus your phone's Google and Outlook calendars. It works offline, needs no account, and has no ads or trackers.
 
-KashCal is a privacy-first calendar for Android. It works completely offline with a local calendar, or syncs with CalDAV servers like iCloud, Nextcloud, Baïkal, and Radicale — your choice.
-
-We believe your schedule is personal. That's why KashCal has zero analytics, zero tracking, and requires no account. Your calendar data stays on your device unless you explicitly choose to sync it.
-
-## Who It's For
-
-- **Privacy-conscious users** who want a calendar that respects their data
-- **Android users** who want to sync with iCloud or other CalDAV servers
-- **Anyone** who wants a beautiful, offline-first calendar without the bloat
-
-## Projects
-
-| Repository | Description |
-|------------|-------------|
-| [KashCal](https://github.com/KashCal/KashCal) | Privacy-first calendar for Android |
-| [KashCake](https://github.com/KashCal/KashCake) | Never forget a Cake Day (birthday) |
-| [iCalDAV](https://github.com/icaldav/icaldav) | CalDAV/ICS library for Kotlin/Java |
+[Website](https://kashcal.onekash.org) · [Google Play](https://play.google.com/store/apps/details?id=org.onekash.kashcal) · [F-Droid](https://f-droid.org/packages/org.onekash.kashcal/) · [Releases](https://github.com/KashCal/KashCal/releases) · [Report a problem](https://github.com/KashCal/KashCal/issues/new/choose)
 
 ## Contributing
 
-Open source is a collaboration. We welcome bug reports, feature requests, testing, and code contributions. If you find a CalDAV server that doesn't work, [let us know](https://github.com/KashCal/KashCal/issues).
+Bug reports, testing and code are welcome. If a CalDAV server doesn't work with KashCal, [open an issue](https://github.com/KashCal/KashCal/issues/new/choose) and name the server.
 
-## Links
+## More from OneKash Labs
 
-**[Website](https://kashcal.github.io)** · **[Download](https://f-droid.org/packages/org.onekash.kashcal)** · **[Issues](https://github.com/KashCal/KashCal/issues)**
-
----
-
-<div align="center">
-
-*Privacy isn't a feature. It's the foundation.*
-
-</div>
+KashCal is made by [OneKash Labs](https://github.com/OneKashLabs). Its other apps: [KashCake](https://kashcake.onekash.org) for birthday reminders, and [KashPass](https://kashpass.onekash.org) for your KeePass vault on your phone.
